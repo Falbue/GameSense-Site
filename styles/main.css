@@ -27,11 +27,11 @@ html, body {
 
 :root {
   --main-bg-color: #13072D;
+  --secondary-bg-color:rgba(38, 38, 75, 0.5); ;
   --main-text-color: white;
   --bg-input: #545454;
-  --bg-button: #B3A9FF;
-  --fg-button: white;
+  --accent-bg-color: #B3A9FF;
+  --text-color: white;
   --main-border-radius: 12px;
-/*    --card-back: #2A1557;*/
---card-back: rgba(42, 21, 87, 0.9);
+  --bg-color: rgba(42, 21, 87, 0.9);
 }

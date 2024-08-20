@@ -156,7 +156,7 @@
 
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0;
     z-index: 600;
 }
 
@@ -166,7 +166,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--bg-button);
+    background-color: var(--accent-bg-color);
     border-radius: 4px;
     z-index: 600;
 }
