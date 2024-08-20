@@ -4,7 +4,13 @@
         display: flex;
         flex-direction: column;
         width: 95%;
-        top: 80px;
+        top: 60px;
+    }
+
+
+    header > div> img{
+        width: 64px;
+        height: 64px;
     }
     
     nav{
@@ -17,4 +23,48 @@
     h2{font-size: 30px}
     h3{font-size: 24px}
     h4{font-size: 20px}
+    h5{font-size: 16px}
+
+
+    #about > img{
+        left: 10%;
+        width: 400px;
+        height: 400px;
+        opacity: 0.3;
+    }
+
+
+    section{
+        margin-top: 100px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        border-radius: var(--main-border-radius);
+    }
+
+    #features {
+        padding: 20px 10px;
+    }
+
+    #features > div > div{
+        flex-direction: column;
+    }
+
+    #features .card {
+        margin-top: 20px;
+    }
+
+    #contact > div >div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon{
+        border-radius: 6px;
+        width: 24px;
+        height: 24px;
+}
 }
