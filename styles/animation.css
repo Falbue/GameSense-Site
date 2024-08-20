@@ -1,0 +1,66 @@
+.shade{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0;
+    animation: shade_ani 0.5s forwards;
+}
+@keyframes shade_ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.button_back:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px var(--bg-button);
+}
+.button_back:active{
+    transition: 100ms;
+    transform: scale(1);
+}
+
+input:focus, textarea:focus, select:focus {
+    outline-color: var(--bg-button);
+    box-shadow: 0px 0px 25px var(--bg-button);
+    transition: .1s;
+    transition-property: box-shadow;
+    outline: none !important;
+}
+
+input[type="radio"]:focus {
+    outline-color: var(--bg-button);
+    box-shadow: 0px 0px 15px var(--bg-button);
+    transition: .1s;
+    transition-property: box-shadow;
+    outline: none !important;
+    color: var(--bg-button);
+    background-color: var(--bg-button);
+}
+
+a:hover{
+    div.curcle{
+        transform: scale(1.05);
+        box-shadow: 0px 0px 25px var(--bg-button);
+    }
+}
+
+.animation{transition: 200ms;}
+.animation:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px var(--bg-button);
+}
+.animation:active{
+    transition: 100ms;
+    transform: scale(1);
+}
+
+.animation_link{
+    transition: 200ms;
+    border-radius: var(--main-border-radius);
+    padding: 8px;
+}
+.animation_link:hover {
+    transform: scale(1.01);
+    background-color: rgba(255, 255, 255, 0.2);
+}

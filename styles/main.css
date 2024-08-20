@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Запретить выделение текста и объектов на всей странице */
+html, body {
+  user-select: none;
+  -webkit-user-select: none; /* Для Chrome, Safari и Opera */
+  -moz-user-select: none;    /* Для Firefox */
+  -ms-user-select: none;     /* Для Internet Explorer/Edge */
+}
+
+/* Запретить выделение для всех элементов */
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Также можно добавить для pseudo-elements, чтобы покрыть все случаи */
+*::selection {
+  background: transparent; /* Скрыть выделение текста */
+}
+
+:root {
+  --main-bg-color: #13072D;
+  --main-text-color: white;
+  --bg-input: #545454;
+  --bg-button: #B3A9FF;
+  --fg-button: white;
+  --main-border-radius: 12px;
+/*    --card-back: #2A1557;*/
+--card-back: rgba(42, 21, 87, 0.9);
+}

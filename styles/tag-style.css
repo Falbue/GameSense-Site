@@ -1,0 +1,108 @@
+body{background-color: var(--main-bg-color);}
+/*body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; 
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../lib/image/back2.webp');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  filter: blur(10px); 
+  z-index: -2; 
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}*/
+
+header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--main-text-color);
+    font-size: medium;
+    font-weight: normal;
+}
+h1{font-size: 48px}
+h2{font-size: 32px}
+h3{font-size: 24px}
+h4{font-size: 16px}
+
+li{
+    margin-top: 4px;
+    color: var(--main-text-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+
+a.active {
+    transform: scale(1.01);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+input, textarea, select{
+    width: 100%;
+    background-color: var(--card-back);
+    padding: 20px 10px;
+    border-radius: var(--main-border-radius);
+    font-size: 24px;
+    color: var(--main-text-color);
+    border: none;
+    box-sizing: border-box; /** позволит добавить padding */
+    transition: 300ms;
+}
+
+input[type='radio']{
+    cursor: pointer;
+    zoom: 2;
+}
+
+
+
+img{border-radius: var(--main-border-radius);}
+
+card, .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--main-border-radius);
+    background-color: var(--card-back);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    padding: 10px;
+}
