@@ -8,12 +8,11 @@ header{
     border-radius: var(--main-border-radius);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 50px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 10px;
     width: 80%;
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +21,7 @@ header{
 }
 
 header > div{
+    padding: 10px;
     display: flex;
     align-items: center;
 }
@@ -114,10 +114,11 @@ section>div{width: 100%}
 
 
 nav{
-    width: 40%;
+    width: 30%;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    padding-right: 30px;
 }
 
 h1, h2, h3, h4, h5 {
