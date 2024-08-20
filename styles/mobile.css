@@ -1,10 +1,13 @@
 /* Адаптивность */
 @media (max-width: 768px) {
     header{
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 95%;
-        top: 60px;
+        transform: translate(0, 0);
+        top: 0;
+        left: 0;
     }
 
 
@@ -61,13 +64,17 @@
 
     #contact > div >div{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        flex-direction: column;    }
 
-    .icon{
-        border-radius: 6px;
-        width: 24px;
-        height: 24px;
-}
-}
+        .icon{
+            border-radius: 6px;
+            width: 24px;
+            height: 24px;
+        }
+
+        footer > div{
+            text-align: center;
+        }
+
+        footer > div > div{width: 0}
+    }
