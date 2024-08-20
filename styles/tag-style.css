@@ -102,6 +102,7 @@ section>div{width: 100%}
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #features .card {
     width: 300px;
